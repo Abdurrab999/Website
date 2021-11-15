@@ -1,0 +1,211 @@
+
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="index.js">
+<title>DBI</title>
+<style type="text/css">
+b{
+	font-size: 25px;
+	color: rgb(0, 183, 255);
+}
+
+#covid{
+	color:red;
+	font-size: 25px;
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+	background:url("coin.jpg");
+	background-attachment: fixed;}
+a
+{
+text-decoration:none;
+}
+a:link
+{
+	color:red;
+}
+a:visited
+{
+	color:none;
+}
+a:hover
+{
+	color:blue;
+	text-decoration:none;
+}
+a:active
+{
+	color:brown;
+}
+h1
+{
+	color:red;
+	text-shadow:0px 2px 5px blue;
+	font-size: 40px;
+}
+#container
+{
+	width: 30%;
+    height: 300px;
+}
+
+#count ul{
+	list-style: none;
+}
+#count ul li{
+	background-color:#ccffff;
+	width: 130px;
+	border:1px solid white;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	float: left;
+	color: #ff33bb;
+	font-size: 16px;
+	font-style: italic;
+	position: relative;
+}
+#count ul li:hover{
+	background-color: #ff66ff;
+}
+#count ul ul
+{
+	display: none;
+}
+#count ul li:hover >ul{
+	display: block;
+}
+#count ul ul ul{
+	color: red;
+	margin-left: 130px;
+	top: 0px;
+	position: absolute;
+}
+
+#ab{
+	width: 96%;
+	padding: 30px;
+	position: absolute;
+	button: 20%;
+	background-color: #e0e0eb;
+}
+#ab p{
+	color: red;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+#au{
+	text-decoration: underline;
+}
+
+
+</style>
+</head>
+<body>
+	<h1 align="center">WELCOME TO DBI</h1><br><br>
+<script type="text/javascript">
+ var images = [
+ 'Bank-PNG.png','Bank-PNG-Pic.png', 'Bank-PNG-Photo.png'
+];
+var num = 0;
+function next() {
+    var slider = document.getElementById('slider');
+    num++;
+    if(num >= images.length) {
+        num = 0;
+    }
+    slider.src = images[num];
+}
+function prev() {
+    var slider = document.getElementById('slider');
+    num--;
+    if(num < 0) {
+        num = images.length-1;
+    }
+    slider.src = images[num];
+}</script>
+
+<div align="center">
+			<b>You can see RBI latest rule by clicking below picture.</b><br>
+            <button onclick="prev()"> Prev </button>
+          <a href="https://www.rbi.org.in/"> <img id="slider" src="Bank-PNG.png" width="50%" height="40%"/></a> 
+            <button onclick="next()"> Next </button>
+        </div>
+        <br><br>
+
+        <div id="count">
+       <ul>
+		<li><a href="DBI.html">Home</a></li>
+		<li><a href="DBI.html">Services</a>
+		<li><a href="DBI.html">Pyament/Tramsfer</a>
+		</li>
+		<li><a href="DBI.html">Fixed deposite</a></li>
+		<li><a href="DBI.html">E-services</a></li>
+		<li><a href="DBI.html">My account</a></li>
+		<li><a href="">Beneficiary account</a></li>
+		<li><a href="#about">About Us</a></li>
+		<li><a href="login.html">Login</a></li>
+	</ul></div>
+<br><br><br>
+<div id="container"><h3 align="center">ANNOUNCEMENTS</h3>
+<pre>
+DBI has decided to adopt Repo Rate as the external
+benchmark for all floating rate loans for MSME,housing
+and retail loans effective October 1,2019 as per RBI’s
+notification dated 4th Sept,2019.
+
+DBI voluntarily extends the external benchmark based
+lending to Medium Enterprises also, to boost lendingto
+the MSME sector as a whole.
+
+DBI had introduced floating rate home loans effective
+July 1,2019. A few modifications have been made in the
+scheme effective 1st October 2019 to comply with the
+latest regulatory guidelines.Further details will be
+made available on the Bank’s website.</pre>
+</div>
+
+<br><br>
+<div>
+<h3><pre align="center">Experience a Smarter  Relationship With Money
+	  “Digital bank is designed to keep your money safe and your life worry-free. 
+	  We’ve taken the hassles of a third-party OTP away, and replaced it with our
+	   in-built safety features to help you enjoy a seamless and secure life.”</pre></h3><br><br><br>
+</div>
+<br><br><br>
+
+<br><br><br><br>
+
+<a name="about" ></a>
+<h2 id="au">&nbsp;&nbsp;About Us&nbsp;&nbsp;</h2><br>
+<div id="about">
+<table  border="0px"  width="100%" cellspacing="0px" cellpadding="5px">
+	<tr>
+		<th>Customer support</th>
+	<th>Contact details</th>
+</tr>
+<tr>
+		<th><br></th>
+	<th><br></th>
+</tr>
+<tr>
+		<th><p>Helpline no.: 7703048142,8948689151</p><br></th>
+	<th><p>ABDURRAB KHAN</p></th>
+</tr>
+<br>
+<br>
+<tr>
+		<th><p>abdurrabkhan999@gmail.com</p></th>
+</tr>
+</a>
+</table>
+	<br>
+<h3>&nbsp;&nbsp;Address :</h3>
+&nbsp;&nbsp;Law gate G.T road Phagwara
+&nbsp;&nbsp;Kapurthala Punjab 144411.
+<br><br><br><br></div>
+</body>
+</html>
